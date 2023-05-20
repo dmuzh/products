@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/icon/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/role.css">
+</head>
+<body>
+    <div class="app">
+        <header class="head">        
+            <div class="head__admin">
+                <img class="head__admin-user" src="./assests/icon/head/avatar.svg" alt="ảnh cá nhân">
+                <p class="head__admin-content">admin</p>
+                <img src="./assests/icon/head/Vector.svg" alt="">
+                <img class="head__admin-set" src="./assests/icon/head/gear.svg" alt="cài đặt">
+            </div>
+        </header>
+
+        <div class="menu">
+            <div class="head__logo">
+                <img src="./assests/img/logo.svg" alt="logo">
+            </div>
+
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#">
+                        <img class="item--com" src="./assests/icon/menu/home.svg" alt="">
+                        Tổng quan
+                    </a>
+                </li>
+                
+                <li class="menu__item">
+                    <a href="./skill.html">
+                        <img class="item--com" src="./assests/icon/menu/skill.svg" alt="">
+                        Kỹ năng
+                    </a>
+                    <img class="item--angle" src="./assests/icon/menu/arrow.svg" alt="">
+                </li>
+
+                <li class="menu__item">
+                    <a href="./personnel.html">
+                        <img class="item--com" src="./assests/icon/menu/personnel.svg" alt="">
+                        Nhân sự
+                    </a>
+                    <img class="item--angle" src="./assests/icon/menu/arrow.svg" alt="">
+                </li>
+
+                <li class="menu__item">
+                    <a href="./role.html">
+                        <img class="item--com" src="./assests/icon/menu/role.svg" alt="">
+                        Vai trò
+                    </a>
+                    <img class="item--angle" src="./assests/icon/menu/arrow.svg" alt="">
+                </li>
+
+                <li class="menu__item">
+                    <a href="./account.html">
+                        <img class="item--com" src="./assests/icon/menu/account.svg" alt="">
+                        Kế toán
+                    </a>
+                    <img class="item--angle" src="./assests/icon/menu/arrow.svg" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="grid">
+            <div class="container">
+                <header class="con__name">
+                    <div class="con__name-title">
+                        <h1>DANH SÁCH VAI TRÒ</h1>
+                    </div>
+
+                    <div class="con__name-link">
+                        <a href="#">Tổng quan</a>
+                        <a class="link--blue" href="">/ Danh sách vai trò</a>
+                    </div>
+                </header>
+
+                <div class="infor">
+                    <div class="infor__option">
+                        <input class="infor__search" type="search" placeholder="Tìm kiếm...">
+
+                        <button class="infor__btn"><a href="./role2.html">+ Tạo vai trò</a></button>
+                    </div>
+                    <div class="infor__tab">
+                        <p><b>Vai trò</b></p>
+                        <p><b>Mô tả</b></p>
+                        <p><b>Ngày tạo</b></p>
+                        <p><b>Số lượng nhân viên</b></p>
+                        <p><b>Thao tác</b></p>
+                    </div>
+                    <p>Không có kết quả</p>
+                    <div class="option">
+                        <div class="sign">
+                            <p>Hiển thị</p>
+                        </div>
+
+                        <select name="language" id="">
+                            <option value="lang">0</option>
+                            <i class="fa-solid fa-angle-down"></i>
+                            <option value="lang">40</option>
+                            <option value="lang">60</option>    
+                        </select>
+                        
+                        <div class="sign">
+                            <p>trong 0 kết quả</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

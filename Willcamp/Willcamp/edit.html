@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/icon/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assests/css/base.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/profile.css">
+</head>
+<img src="" alt="">
+
+<body>
+    <div class="app">
+        <header class="head">
+            <div class="head__admin">
+                <img class="head__admin-user" src="./assests/icon/head/avatar.svg" alt="ảnh cá nhân">
+                <p class="head__admin-content">admin</p>
+                <img src="./assests/icon/head/Vector.svg" alt="">
+                <div class="header__nav-item">
+                    <img class="head__admin-set" src="./assests/icon/head/gear.svg" alt="cài đặt" id="setting">
+                    <ul class="header__notify">
+                        <li class="header__acces">
+                            <img src="./assests/icon/access/unlock.svg" alt="">
+                            <span>Thiết lập tài khoản</span>
+                            <img src="./assests/icon/access/Vector.svg" alt="">
+                        </li>
+                        <li class="header__acces">
+                            <img src="./assests/icon/access/sun.svg" alt="">
+                            <span>Màn hình & trợ năng</span>
+                            <img src="./assests/icon/access/Vector.svg" alt="">
+                        </li>
+                        <li class="header__acces">
+                            <img src="./assests/icon/access/globe.svg" alt="">
+                            <span>Ngôn ngữ</span>
+                            <img src="./assests/icon/access/Vector.svg" alt="">
+                        </li>
+                        <li class="header__acces">
+                            <img src="./assests/icon/access/Group 184.svg" alt="">
+                            <span>Đăng xuất</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </header>
+
+        <div class="menu">
+            <div class="head__logo">
+                <img src="./assests/img/logo.svg" alt="logo">
+            </div>
+
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a href="#">
+                        <img class="item--com" src="./assests/icon/menu/home.svg" alt="">
+                        Tổng quan
+                    </a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="./skill.html">
+                        <img class="item--com" src="./assests/icon/menu/skill.svg" alt="">
+                        Kỹ năng
+                    </a>
+                    <img class="item--angle" src="./assests/icon/menu/arrow.svg" alt="">
+                </li>
+
+                <li class="menu__item">
+                    <a href="./personnel.html">
+                        <img class="item--com" src="./assests/icon/menu/personnel.svg" alt="">
+                        Nhân sự
+                    </a>
+                    <img class="item--angle" src="./assests/icon/menu/arrow.svg" alt="">
+                </li>
+
+                <li class="menu__item">
+                    <a href="./role.html">
+                        <img class="item--com" src="./assests/icon/menu/role.svg" alt="">
+                        Vai trò
+                    </a>
+                    <img class="item--angle" src="./assests/icon/menu/arrow.svg" alt="">
+                </li>
+
+                <li class="menu__item">
+                    <a href="./account.html">
+                        <img class="item--com" src="./assests/icon/menu/account.svg" alt="">
+                        Kế toán
+                    </a>
+                    <img class="item--angle" src="./assests/icon/menu/arrow.svg" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="grid">
+            <div class="container">
+                <header class="con__name">
+                    <div class="con__name-title">
+                        <h1>DANH SÁCH NHÂN SỰ</h1>
+                    </div>
+
+                    <div class="con__name-link">
+                        <a href="#">Tổng quan</a>
+                        <a class="link--blue" href="./personnel.html">/ Danh sách nhân sự</a>
+                        <a class="link--blue" href="./personnel2.html">/ Thêm nhân sự</a>
+                    </div>
+                </header>
+
+                <div class="infor">
+                    <div class="infor__avatar">
+                        <img src="./assests/icon/profile/avatar.svg" alt="avatar">
+                        <h1>THÔNG TIN CÁ NHÂN</h1>
+                    </div>
+
+                    <div class="infor__staff">
+                        <div class="staff-list">
+                            <div class="infor__personal">
+                                <div class="personal-item">
+                                    <p>Mã nhân viên:</p>
+                                    <input type="text" placeholder="Nhập mã nhân viên">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Họ và tên:</p>
+                                    <input type="text" placeholder="Nhập họ và tên">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Ngày sinh:</p>
+                                    <input class="pe-date" type="date">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Giới tính:</p>
+                                    <select name="sex" id="">
+                                        <option value="">Chọn giới tính</option>
+                                        <option value="">Nam</option>
+                                        <option value="">Nữ</option>
+                                        <option value="">Khác</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Nơi sinh:</p>
+                                    <select name="place-birth" id="">
+                                        <option value="">Chọn nơi sinh</option>
+                                        <option value="">Đà Nẵng</option>
+                                        <option value="">Hà Nội</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Email cá nhân:</p>
+                                    <input type="email" placeholder="Nhập email cá nhân">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Email doanh nghiệp:</p>
+                                    <input type="email" placeholder="Nhập email doanh nghiệp">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Tạo mật khẩu:</p>
+                                    <input type="password" placeholder="Tạo mật khẩu">
+                                </div>
+                            </div>
+                            <div class="infor__personal">
+                                <div class="personal-item">
+                                    <p>Chức vụ:</p>
+                                    <select name="positions" id="">
+                                        <option value="">Chọn chức vụ</option>
+                                        <option value="">Giám đốc</option>
+                                        <option value="">Trưởng phòng</option>
+                                        <option value="">Kế toán</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Phòng ban:</p>
+                                    <select name="positions" id="">
+                                        <option value="">Chọn phòng ban</option>
+                                        <option value="">Giám đốc</option>
+                                        <option value="">Trưởng phòng</option>
+                                        <option value="">Kế toán</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Số điện thoại:</p>
+                                    <input type="text" placeholder="Số điện thoại">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p> Địa chỉ (số nhà,đường):</br></p>
+                                    <input type="text" placeholder="Nhập số nhà, đường">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Tỉnh/Thành phố:</p>
+                                    <select name="country" class="item-label">
+                                        <option value="">Chọn Tỉnh/Thành phố</option>
+                                        <option value="">Nghệ An</option>
+                                        <option value="">Nam Định</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Quận/Huyện:</p>
+                                    <select name="country" class="item-label">
+                                        <option value="">Chọn Quận/Huyện</option>
+                                        <option value="">Ngũ Hành Sơn</option>
+                                        <option value="">Hoàng Sa</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Xã/Phường:</p>
+                                    <select name="wards" class="item-label">
+                                        <option value="">Chọn xã/phường</option>
+                                        <option value="">Lê Duẩn</option>
+                                        <option value="">Mỹ An</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Quốc tịch:</p>
+                                    <select name="countrys" class="item-label">
+                                        <option value="">Chọn quốc tịch</option>
+                                        <option value="">Lê Duẩn</option>
+                                        <option value="">Mỹ An</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Dân tộc:</p>
+                                    <select name="nation" id="">
+                                        <option value="">Chọn dân tộc</option>
+                                        <option value="">Kinh</option>
+                                        <option value="">Mường</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="infor__avatar">
+                        <h1>THÔNG TIN GIA ĐÌNH</h1>
+                    </div>
+
+                    <div class="infor__parent">
+                        <h1>1. CHA</h1>
+                        <h1>2. MẸ</h1>
+                    </div>
+
+                    <div class="infor__staff">
+                        <div class="staff-list">
+                            <div class="infor__personal">
+                                <div class="personal-item">
+                                    <p>Họ và tên:</p>
+                                    <input type="text" placeholder="Nhập họ và tên">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Dân tộc:</p>
+                                    <select name="nation" id="">
+                                        <option value="">Chọn dân tộc</option>
+                                        <option value="">Kinh</option>
+                                        <option value="">Mường</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Ngày sinh:</p>
+                                    <input class="pe-date" type="date">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Số điện thoại:</p>
+                                    <input type="text" placeholder="Số điện thoại">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Quốc tịch:</p>
+                                    <select name="countrys" class="item-label">
+                                        <option value="">Chọn quốc tịch</option>
+                                        <option value="">Lê Duẩn</option>
+                                        <option value="">Mỹ An</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p> Nghề nghiệp:</br></p>
+                                    <input type="text" placeholder="Nhập nghề nghiệp">
+                                </div>
+                            </div>
+
+                            <div class="infor__personal">
+                                <div class="personal-item">
+                                    <p>Họ và tên:</p>
+                                    <input type="text" placeholder="Nhập họ và tên">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Dân tộc:</p>
+                                    <select name="nation" id="">
+                                        <option value="">Chọn dân tộc</option>
+                                        <option value="">Kinh</option>
+                                        <option value="">Mường</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Ngày sinh:</p>
+                                    <input class="pe-date" type="date">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Số điện thoại:</p>
+                                    <input type="text" placeholder="Số điện thoại">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Quốc tịch:</p>
+                                    <select name="countrys" class="item-label">
+                                        <option value="">Chọn quốc tịch</option>
+                                        <option value="">Lê Duẩn</option>
+                                        <option value="">Mỹ An</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p> Nghề nghiệp:</br></p>
+                                    <input type="text" placeholder="Nhập nghề nghiệp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="infor__parent">
+                        <h1>3. VỢ/CHỒNG (Nếu có)</h1>
+                    </div>
+
+                    <div class="infor__staff ">
+                        <div class="staff-list staff-list-wife infor-btn">
+                            <div class="infor__personal">
+                                <div class="personal-item">
+                                    <p>Họ và tên:</p>
+                                    <input type="text" placeholder="Nhập họ và tên">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Dân tộc:</p>
+                                    <select name="nation" id="">
+                                        <option value="">Chọn dân tộc</option>
+                                        <option value="">Kinh</option>
+                                        <option value="">Mường</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Ngày sinh:</p>
+                                    <input class="pe-date" type="date">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Số điện thoại:</p>
+                                    <input type="text" placeholder="Số điện thoại">
+                                </div>
+
+                                <div class="personal-item">
+                                    <p>Quốc tịch:</p>
+                                    <select name="countrys" class="item-label">
+                                        <option value="">Chọn quốc tịch</option>
+                                        <option value="">Lê Duẩn</option>
+                                        <option value="">Mỹ An</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+
+                                <div class="personal-item">
+                                    <p> Nghề nghiệp:</br></p>
+                                    <input type="text" placeholder="Nhập nghề nghiệp">
+                                </div>
+                            </div>
+
+                            <button>
+                                Lưu thông tin
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../Willcamp/assests/ap.js"></script>
+</body>
+
+</html>

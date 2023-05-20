@@ -1,0 +1,111 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-container {
+    background: #fff;
+    width: 450px;
+    max-width: calc(100%-32px);
+    min-height: 200px;
+    animation: modalFaceIn ease 0.5s ;
+}
+
+.modal.open {
+    display: flex;
+}
+header.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.heading {
+    padding-left: 20px;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #7C7C7C;
+}
+
+.modal-body{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.modal-label {
+    font-size: 15px;
+    margin-bottom: 12px;
+    margin-left: 30px;
+
+}
+
+.modal-input.modal--hei {
+    height: 30px;
+}
+
+.modal-label.modal--has,
+.modal-input.modal--has{
+    padding-bottom: 150px;
+}
+
+.modal-input {
+    border: 1px solid #ccc;
+    width: 280px;
+    height: 183px;
+    padding: 10px 0;
+    font-size: 15px ;
+    margin-bottom: 24px;
+
+}
+
+.btn-mod {
+    background: #D8D8D8;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-mod:hover {
+    opacity: 0.7;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.btn-mod:hover {
+    color: #FFFFFF;
+    background: #174ee7;  
+}
+
+.btn-mod.cancel {
+    margin-right: 10px;
+}
+
+@keyframes modalFaceIn {
+    from {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

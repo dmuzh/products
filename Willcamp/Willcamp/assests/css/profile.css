@@ -1,0 +1,99 @@
+.infor__avatar {
+    text-align: center;
+}
+
+.infor__avatar img{
+    margin-top: 20px;
+}
+
+.infor__avatar h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: red;
+    font-size: 20px;
+}
+
+.infor__staff {
+    padding-bottom: 50px;
+}
+
+/* .infor-btn {
+    display: flex;
+} */
+
+.staff-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    width: 100%;
+}
+
+.infor__personal {
+    display: flex;
+    flex-direction: column; 
+}
+
+.infor__personal p {
+    font-size: 1rem;  
+    width: 150px; 
+}
+
+.personal-item {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+.personal-item input, 
+.personal-item select{
+    border: 1px solid #060606;
+    font-size: 1rem;
+    float: left;
+    margin-right: 50px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.personal-item .item-label {
+    width: 180px;
+}
+
+.infor__parent {
+    display: flex;
+    justify-content:space-around;
+}
+
+.infor__parent h1{
+    margin-left: 100px;
+    width: 100%;
+    color: #0014C6;
+    font-size: 20px;
+}
+
+.staff-list-wife {
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 82px; */
+    width: 100%;
+}
+
+.infor-btn button {
+    box-sizing: border-box;
+    height: 1.8rem;
+    border-radius: 5px;
+    color: var(--white-color);
+    background-color: #4d77eb;
+    align-self: self-end;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    /* width: 100%; */
+    float: right;
+}
+
+.infor-btn button:hover {
+    background-color: #5872b9;
+}
+
+

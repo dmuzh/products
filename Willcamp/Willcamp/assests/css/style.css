@@ -1,0 +1,43 @@
+
+/* infor */
+.infor {
+    margin-top: 20px;
+    background-color: var(--white-color);
+}
+
+.infor .infor__search {
+    background: #FFFCFC;
+    border: 1px solid #555555;
+    border-radius: 30px;
+    margin: 19px 0 20px 19px;
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.infor i {
+    font-size: 2rem;
+    margin-left: -35px;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F7F9;
+}
+
+table {
+    width: 95%;
+    height: 40px;
+    margin: 10px 20px 10px 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 15px;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 8px;
+}
+
+
+
+
