@@ -1,18 +1,18 @@
 let emlBody = document.getElementById('total')
 let card = {
     id: 1,
-    img: 'https://thuthuatnhanh.com/wp-content/uploads/2022/03/Hinh-anh-Itachi-chibi-buon-cute.png',
-    name: 'Uchiha Itachi',
+    img: 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/290369226_3019400938360818_210369684716563722_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8Xalg9N3LgEAX_9yKGp&_nc_ht=scontent.fdad3-4.fna&oh=00_AfDVVicEEc7kGRcEWM7AjZOoNlX1KdGp2PZlfC0ngDFeXw&oe=646ECA97',
+    name: 'Nguyễn Ngọc Đức',
     job: 'front-end developer',
-    linkFb:'https://www.facebook.com/profile.php?id=100071199823861'
+    linkFb: 'https://www.facebook.com/Ng.Duccz'
 }
 let listCard = [
     {
         id: 1,
-        img: 'https://thuthuatnhanh.com/wp-content/uploads/2022/03/Hinh-anh-Itachi-chibi-buon-cute.png',
-        name: 'Uchiha Itachi',
+        img: 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/290369226_3019400938360818_210369684716563722_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=8Xalg9N3LgEAX_9yKGp&_nc_ht=scontent.fdad3-4.fna&oh=00_AfDVVicEEc7kGRcEWM7AjZOoNlX1KdGp2PZlfC0ngDFeXw&oe=646ECA97',
+        name: 'Nguyễn Ngọc Đức',
         job: 'front-end developer',
-        linkFb:'https://www.facebook.com/profile.php?id=100071199823861'
+        linkFb: 'https://www.facebook.com/Ng.Duccz'
 
 
     },
@@ -21,7 +21,7 @@ let listCard = [
         img: 'https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-1/272120466_1589509774722282_5366159161100293289_n.jpg?stp=dst-jpg_p320x320&_nc_cat=100&ccb=1-7&_nc_sid=f67be1&_nc_ohc=myvqOl4-zrMAX-MuNEH&_nc_ht=scontent.fdad3-6.fna&oh=00_AfDEjqLGpPmdwT0jbxD8zzE9PzgVIdFoWq6GO98xE99acg&oe=646CEE08',
         name: 'Lương Văn Huy',
         job: 'Full-stack developer',
-        linkFb:'https://www.facebook.com/Huylv49'
+        linkFb: 'https://www.facebook.com/Huylv49'
 
     },
     {
@@ -29,7 +29,7 @@ let listCard = [
         img: 'https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-1/345849368_3475689596044903_354858558677970430_n.jpg?stp=dst-jpg_p320x320&_nc_cat=101&ccb=1-7&_nc_sid=7206a8&_nc_ohc=tB1M454OyPgAX9Vhzg4&_nc_ht=scontent.fdad3-4.fna&oh=00_AfAjuTgbDpPJ4u2j7e0cio4uA-hyxqVXA6lXtvs35dRL5g&oe=646E0973',
         name: 'Nguyễn Thế Quân',
         job: 'back-end developer',
-        linkFb:'https://www.facebook.com/quan.nguyenthe.188'
+        linkFb: 'https://www.facebook.com/quan.nguyenthe.188'
 
     }
 ]
